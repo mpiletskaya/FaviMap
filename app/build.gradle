@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.favimap.favimap"
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -31,4 +31,5 @@ dependencies {
     compile 'com.android.support:design:23.4.0'
     // Add ArcGIS Runtime SDK for Android dependency
     compile 'com.esri.arcgis.android:arcgis-android:10.2.8'
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
 }
